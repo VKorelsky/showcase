@@ -1,0 +1,55 @@
+@import 'vendor/normalize.css';
+
+#canvas {
+
+}
+
+#header {
+  display: flex;
+  position: absolute;
+
+  background: white;
+  transition: all 0.3s ease;
+
+  height: 70px;
+  top: 40%;
+  width: 100%;
+
+  align-items: center;
+  justify-content: space-around;
+}
+
+#header-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#header-left > a {
+  text-decoration: none;
+  color: #857e7e;
+  transition: all 0.3s ease;
+  padding-top: 1rem;
+
+
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+#header-left > a:hover {
+  color: HSL(358, 69%, 50%);
+}
+
+#header-right {
+
+}
+
+.lead {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'avenir next';
+  margin-bottom: 2%;
+ }
