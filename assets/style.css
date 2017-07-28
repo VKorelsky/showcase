@@ -1,55 +1,35 @@
-@import 'vendor/normalize.css';
-
-#canvas {
-
-}
-
-#header {
+.header {
   display: flex;
   position: absolute;
-
   background: white;
   transition: all 0.3s ease;
-
   height: 70px;
   top: 40%;
   width: 100%;
-
   align-items: center;
   justify-content: space-around;
 }
 
-#header-left {
+.header-left {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-grow: 0.3;
 }
 
-#header-left > a {
+.header-left > a, .header-left > a:visited {
   text-decoration: none;
   color: #857e7e;
-  transition: all 0.3s ease;
-  padding-top: 1rem;
-
-
-  margin-right: 20%;
-  margin-left: 20%;
 }
 
-#header-left > a:hover {
-  color: HSL(358, 69%, 50%);
+.header-left > a:hover {
+  color: #D7282D;
 }
 
-#header-right {
-
-}
 
 .lead {
   font-size: 200%;
   font-weight: bold;
 }
 
-p {
-  font-family: 'avenir next';
-  margin-bottom: 2%;
- }
+p {font-family: 'avenir next';}
