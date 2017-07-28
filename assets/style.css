@@ -1,4 +1,4 @@
-.header {
+#header {
   display: flex;
   position: absolute;
   background: white;
@@ -10,26 +10,22 @@
   justify-content: space-around;
 }
 
-.header-left {
+#header-left {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-grow: 0.3;
 }
 
-.header-left > a, .header-left > a:visited {
+.no-link-decoration > a {
   text-decoration: none;
   color: #857e7e;
 }
 
-.header-left > a:hover {
-  color: #D7282D;
-}
-
-
-.lead {
+.bold-big {
   font-size: 200%;
   font-weight: bold;
 }
 
+.red-hover:hover{ color: #D7282D; }
 p {font-family: 'avenir next';}
