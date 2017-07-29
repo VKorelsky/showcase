@@ -1,10 +1,15 @@
+.header-container {
+  position: relative;
+  height: 100vh;
+}
+
 #header {
   display: flex;
-  position: absolute;
   background: white;
+  position: absolute;
+  top: 40%;
   transition: all 0.3s ease;
   height: 70px;
-  top: 40%;
   width: 100%;
   align-items: center;
   justify-content: space-around;
@@ -17,7 +22,18 @@
   flex-grow: 0.3;
 }
 
-.no-link-decoration > a {
+#about-box {
+   height: 50vh;
+   background: #FFF1DE;
+}
+
+#portfolio {
+
+}
+
+
+
+.no-decoration {
   text-decoration: none;
   color: #857e7e;
 }
@@ -27,5 +43,13 @@
   font-weight: bold;
 }
 
+.text-center {text-align: center;}
+
 .red-hover:hover{ color: #D7282D; }
+
 p {font-family: 'avenir next';}
+
+.padded {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
