@@ -25,13 +25,10 @@
 #about-box {
    height: 50vh;
    background: #FFF1DE;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
-
-#portfolio {
-
-}
-
-
 
 .no-decoration {
   text-decoration: none;
