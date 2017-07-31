@@ -1,34 +1,17 @@
-.header-container {
-  position: relative;
+p {font-family: 'avenir next';}
+
+.container {
+  display: flex;
   height: 100vh;
-}
-
-#header {
-  display: flex;
-  background: white;
-  position: absolute;
-  top: 40%;
-  transition: all 0.3s ease;
-  height: 70px;
-  width: 100%;
-  align-items: center;
+  flex-direction: row;
   justify-content: space-around;
-}
-
-#header-left {
-  display: flex;
   align-items: center;
-  justify-content: space-between;
-  flex-grow: 0.3;
 }
 
-#about-box {
-   height: 50vh;
-   background: #FFF1DE;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+.left-xs-bottom {
 }
+
+.right-xs-top {}
 
 .no-decoration {
   text-decoration: none;
@@ -40,11 +23,13 @@
   font-weight: bold;
 }
 
+.eye-catcher-big {
+  font-size: 7em;
+}
+
 .text-center {text-align: center;}
 
 .red-hover:hover{ color: #D7282D; }
-
-p {font-family: 'avenir next';}
 
 .padded {
   padding-top: 5%;
